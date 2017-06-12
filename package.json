@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "CLI tool for Bank of Georgia",
   "main": "./lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "prettify": "git diff --name-only HEAD | grep \".*\\.js$\" | xargs prettier --single-quote --no-semi --write"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brunjick/bog-cli.git"
@@ -22,7 +24,9 @@
     "url": "https://github.com/brunjick/bog-cli/issues"
   },
   "homepage": "https://github.com/brunjick/bog-cli#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^1.4.4"
+  },
   "dependencies": {
     "cli-pen": "^0.1.12-2",
     "co": "^4.6.0",
