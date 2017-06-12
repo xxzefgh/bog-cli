@@ -1,0 +1,33 @@
+{
+  "name": "bog-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for Bank of Georgia",
+  "main": "./lib/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunjick/bog-cli.git"
+  },
+  "keywords": [],
+  "author": "Mirza Brunjadze",
+  "license": "ISC",
+  "bin": {
+    "bog": "./bin/bog"
+  },
+  "bugs": {
+    "url": "https://github.com/brunjick/bog-cli/issues"
+  },
+  "homepage": "https://github.com/brunjick/bog-cli#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "cli-pen": "^0.1.12-2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "crypto-js": "^3.1.9-1",
+    "inquirer": "^3.1.0",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  }
+}
