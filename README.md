@@ -3,6 +3,14 @@
 
 ⚠️ This is just a proof of concept, no real usage options implemented (yet)
 
+## Installation
+```bash
+git clone https://github.com/brunjick/bog-cli.git
+cd bog-cli
+npm i
+npm i -g
+```
+
 ## Usage
 
 ##### Login
