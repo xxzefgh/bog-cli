@@ -7,8 +7,8 @@
 ```bash
 git clone -b pre-alpha https://github.com/brunjick/bog-cli.git
 cd bog-cli
-npm i
-npm i -g
+npm install 
+npm install -g
 ```
 
 ## Usage
