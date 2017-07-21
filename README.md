@@ -5,7 +5,7 @@
 
 ## Installation
 ```bash
-git clone https://github.com/brunjick/bog-cli.git
+git clone -b pre-alpha https://github.com/brunjick/bog-cli.git
 cd bog-cli
 npm i
 npm i -g
