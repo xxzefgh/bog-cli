@@ -28,13 +28,13 @@
     "prettier": "^1.4.4"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "cli-pen": "^0.1.12-2",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "commander": "^2.9.0",
     "crypto-js": "^3.1.9-1",
     "inquirer": "^3.1.0",
-    "request": "^2.81.0",
-    "request-promise-native": "^1.0.4"
+    "querystring": "^0.2.0"
   }
 }
